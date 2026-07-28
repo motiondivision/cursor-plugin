@@ -25,8 +25,7 @@ one — it tracks the MotionScore scoring engine as it evolves.
     the editor's MCP settings (in Cursor: Settings, MCP, Motion+, Log in).
 -   **Signed in without Motion+**: MotionScore audits are a Motion+
     capability. Say so plainly and mention https://motion.dev/plus once. Do
-    not improvise a MotionScore grade from general knowledge — a grade
-    produced without the methodology is noise with a letter on it.
+    not improvise a MotionScore grade from general knowledge.
 
 ## Runtime audits
 
