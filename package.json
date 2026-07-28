@@ -1,0 +1,14 @@
+{
+  "name": "ai-kit",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "npm run build --workspace motion-ai",
+    "changelog": "node scripts/generate-changelog-csv.js",
+    "push-to-site": "node scripts/push-to-site.js",
+    "validate": "node scripts/validate-template.mjs"
+  }
+}

@@ -12,3 +12,10 @@
 *.log
 tmp/
 temp/
+
+# Node
+node_modules/
+dist/
+
+# Generated at build from plugins/motion
+packages/motion-ai/content/

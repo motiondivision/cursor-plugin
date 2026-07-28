@@ -1,0 +1,145 @@
+version,date,content,type,slug,library
+7.0.0,2026-07-28,"### Changed
+
+-   The AI Kit is now open source. The Cursor plugin and the `motion-ai` installer live together in this repository and share one set of skills.
+-   MCP: Moved to Motion's hosted servers, `mcp.motion.dev` and `mcp.motion.dev/plus`. There is no local server and no API key: Motion+ features unlock by signing in from your agent.
+-   Installer: `npx motion-ai` no longer asks for a Motion+ API key. It installs the skills and configures both MCP servers for Claude Code, Cursor, Amp, OpenCode, Gemini CLI, Copilot or any custom agent folder.
+
+### Added
+
+-   Transition editor: Delay control, matching the VS Code extension.
+
+### Removed
+
+-   Installer: Windsurf removed from the agent picker.",major,ai-kit-7,AI Kit
+6.2.0,2026-07-23,"### Added
+
+-   MCP: `search-motion-codex` now returns Motion UI components and sections (Motion+ / React) as full multi-file paste-ready source — same delivery model as examples, baked into the package.",minor,studio-6-2,Studio
+6.1.0,2026-05-28,"### Changed
+
+-   Skills: Add MotionScore runtime performance profiling to `/motion`.",minor,studio-6-1,Studio
+6.0.0,2026-05-27,"### Changed
+
+-   Skills: Unified all skills into one `/motion` skill.",major,studio-6,Studio
+5.4.4,2026-05-26,"### Added
+
+-   MCP: Hardened response to missing `sharp` dependency.",patch,studio-5-4-4,Studio
+5.4.3,2026-04-08,"### Added
+
+-   Skills: Installer better supports OpenCode.",patch,studio-5-4-3,Studio
+5.4.2,2026-03-06,"### Added
+
+-   Skills: Installer now supports VS Code.",patch,studio-5-4-2,Studio
+5.4.1,2026-03-06,"### Updated
+
+-   MCP: Now loads codex with documentation if purchased AI Kit.",patch,studio-5-4-1,Studio
+5.4.0,2026-03-06,"### Added
+
+-   Skills: `/motion` skill. Includes design guidelines, performance tips, and API gotchas. Can reference the Motion Studio MCP for docs search.
+-   Skills: `/css-spring` skill. Generates CSS spring easing functions via the Motion Studio MCP.
+-   Skills: `/see-transition` skill. Visualise easing curves and springs via the Motion Studio MCP.
+-   Skills: Added new `motion-ai-kit` installer with interactive skill picker.",minor,studio-5-4,Studio
+5.3.0,2026-02-12,"### Added
+
+-   Extension: Added support for spring editing.
+-   Extension: Visual refresh.
+-   Skills: Added Motion Performance Audit skill.",minor,studio-5-3,Studio
+5.2.0,2026-01-13,"### Changed
+
+-   Extension: Added support for editing and saving `delay` and `duration`.",minor,studio-5-2,Studio
+5.1.0,2026-01-12,"### Changed
+
+-   MCP: Added documentation lookup to Codex.",minor,studio-5-1,Studio
+5.0.1,2025-12-16,"### Changed
+
+-   MCP: Improving Codex tool prompts.",patch,studio-5-0-1,Studio
+5.0.0,2025-12-12,"### Changed
+
+-   MCP: Installation requires setting access token via `env.TOKEN` instead of URL query string.
+
+### Added
+
+-   MCP: Includes Motion docs and CSS generation tools for unauthenticated users.
+-   MCP: Codex can now also query your saved transitions.",major,studio-5,Studio
+4.3.0,2025-12-10,"### Added
+
+-   Extension: Save and manage transitions.",minor,studio-4-3,Studio
+4.2.1,2025-12-09,"### Added
+
+-   Extension: Support multiline selection for batch bezier edits.",patch,studio-4-2-1,Studio
+4.2.0,2025-12-09,"### Added
+
+-   Extension: Support for editing general `cubicBezier()` easing functions alongside CSS and Motion syntax.",minor,studio-4-2,Studio
+4.1.1,2025-12-08,"### Added
+
+-   SDK `BezierCurveEditor`: New configuration props added.",patch,studio-4-1-1,Studio
+4.1.0,2025-12-05,"### Added
+
+-   SDK: Added `BezierCurveEditor` component.",minor,studio-4-1,Studio
+4.0.5,2025-12-03,"### Changed
+
+-   Extension: Replaced internal `BezierCurveEditor` with SDK component.
+-   SDK `BezierCurveEditor`: Improved drawing calculations.",patch,studio-4-0-5,Studio
+4.0.4,2025-12-03,"### Fixed
+
+-   Extension: Fixed packaged webviews.
+-   Extension: Fixing image URLs in README.",patch,studio-4-0-4,Studio
+4.0.1,2025-12-02,"### Fixed
+
+-   Extension: Restore README.",patch,studio-4-0-1,Studio
+4.0.0,2025-12-02,"### Changed
+
+-   Unified Motion Studio SDK, MCP and Extension versioning.
+-   Extension: Replaced internal `EasingCurve` component with SDK.
+
+### Added
+
+-   Extension: Packaged and minified for smaller filesize.
+
+### Fixed
+
+-   SDK `EasingCurve`: Ensure final curve point is drawn correctly.",major,studio-4,Studio
+3.0.2,2025-11-27,"### Added
+
+-   SDK `EasingCurve`: `transition` prop allows animation between easing curves.",patch,studio-3-0-2,Studio
+3.0.1,2025-11-27,"### Added
+
+-   SDK `EasingCurve`: Now accepts easing functions.",patch,studio-3-0-1,Studio
+3.0.0,2025-11-27,"### Added
+
+-   SDK `EasingCurve`: React component for drawing a provided easing curve.
+-   SDK `TransitionState`: State for editing Motion transitions.
+-   SDK `toCSSTransition`: Convert `TransitionState` to a CSS `transition` string.
+-   SDK `toMotionTransition`: Convert `TransitionState` to a Motion `Transition` string.
+-   SDK `fromShareURL`: Create a `TransitionState` from the current URL.
+-   SDK `toShareQueryString`: Create a serialised `TransitionState` safe for adding to the URL.",major,studio-3,Studio
+1.0.0,2025-11-26,"### Added
+
+-   Motion+ AI Patterns: Use your LLM to query Motion Examples to kickstart its code generation.",major,studio-1,Studio
+0.0.9,2025-11-10,"### Removed
+
+-   Extension: Removing automatic MCP registration to support more editors.",patch,studio-0-0-9,Studio
+0.0.8,2025-11-09,"### Changed
+
+-   Extension: Updating to Motion Studio branding.",patch,studio-0-0-8,Studio
+0.0.7,2025-09-10,"### Added
+
+-   Extension: Allowing bezier editor SVG to overflow.",patch,studio-0-0-7,Studio
+0.0.6,2025-08-10,"### Added
+
+-   Extension: Updating copy to remove reference to spring.",patch,studio-0-0-6,Studio
+0.0.5,2025-07-21,"### Added
+
+-   Extension: Fixing build for views.",patch,studio-0-0-5,Studio
+0.0.4,2025-07-09,"### Added
+
+-   Extension: Add bezier curve editor.",patch,studio-0-0-4,Studio
+0.0.3,2025-07-03,"### Added
+
+-   Extension: Update name.",patch,studio-0-0-3,Studio
+0.0.2,2025-07-01,"### Added
+
+-   Extension: Improve README.",patch,studio-0-0-2,Studio
+0.0.1,2025-07-01,"### Added
+
+-   Extension: Initial release.",patch,studio-0-0-1,Studio

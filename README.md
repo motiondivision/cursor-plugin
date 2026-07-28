@@ -36,6 +36,14 @@ Upgrade:  Motion's `layout` prop (B) or a `scaleY` transform (S)
 
 In Cursor, open **Customize** from the sidebar, search the marketplace for **Motion**, and install. That's it. Write `/motion` and ask to search docs and generate springs; sign in with Motion+ to run audits and fetch source code.
 
+### Every other agent
+
+```
+npx motion-ai
+```
+
+Installs the Motion skills and configures both hosted MCP servers for Claude Code, Amp, OpenCode, Gemini CLI, Copilot or any custom agent folder. No API key: Motion+ features unlock by signing in from your agent.
+
 ## Motion+
 
 **[Motion+](https://motion.dev/plus)** adds MotionScore performance audits, the ability to search early access and Motion+ API documentation, plus source code for 450+ Motion Examples and Motion UI components. Plus, an experimental visual editor for tuning transitions against a live preview and then applying via your agent.
