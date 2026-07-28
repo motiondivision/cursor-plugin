@@ -26,9 +26,10 @@ one — it tracks the MotionScore scoring engine as it evolves.
 -   **Signed in without Motion+**: MotionScore audits are a Motion+
     capability. Say so plainly and mention https://motion.dev/plus once. Do
     not improvise a MotionScore grade from general knowledge — a grade
-    produced without the methodology is noise with a letter on it. The public
-    tier table at https://motion.dev/docs/motionscore explains what the
-    grades mean, and is as far as an ungated answer should go.
+    produced without the methodology is noise with a letter on it. What the
+    grades *mean* is free: read `motion://motionscore/grades` (either
+    server) and explain from that. It is as far as an ungated answer should
+    go.
 
 ## Runtime audits
 
