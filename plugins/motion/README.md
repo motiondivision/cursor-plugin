@@ -34,7 +34,7 @@ Upgrade:  Motion's `layout` prop (B) or a `scaleY` transform (S)
 
 ## Install
 
-Find **Motion** in the Cursor Marketplace and install it. That's it. Write `/motion` and ask to search docs and generate springs; sign in with Motion+ to run audits and fetch source code.
+In Cursor, open **Customize** from the sidebar, search the marketplace for **Motion**, and install. That's it. Write `/motion` and ask to search docs and generate springs; sign in with Motion+ to run audits and fetch source code.
 
 ## Motion+
 
